@@ -76,7 +76,7 @@ public class FirstQuiz extends AppCompatActivity {
             public void onClick(View view) {
                 if (answerButton1.isEnabled()==false)
                 {
-                    totalPoints=1;
+                    totalPoints=0;
                     answerButton1.setBackgroundColor(Color.RED);
                     answerButton3.setBackgroundColor(Color.GREEN);
 
